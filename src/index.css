@@ -1,0 +1,126 @@
+body{
+    color: #7a7979;
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: #af4328e8;
+}
+.icon-par{
+    position: relative;
+}
+.search{
+    border-radius: 20px;
+}
+.search::placeholder{
+    color: #999;
+}
+.icon{
+    position: absolute;
+    left: 15px;
+    font-weight: bold;
+    color: #676565;
+    font-size: 14px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+/* films */
+.img-par{
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    padding: 0 20px;
+}
+.img-size{
+    position: absolute;
+    width: 94%;
+    height: 95%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.cover{
+    display: none;
+}
+.img-par:hover
+ .cover{
+    width: 94%;
+    height: 95%;
+    top: 50%;
+    color: #dad6d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #221f1fa0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+}
+/* details film */
+.btn-show,.btn-show:hover,.btn-show:active,.btn-show:focus-visible{
+    background-color: #af4328e8 !important;
+    box-shadow: none;
+    border: none;
+}
+.gap-btn{
+    gap: 5px;
+}
+.link-style,.link-style:hover,.link-style:visited{
+    color: #f1f1f1c0;
+    text-decoration: none;
+}
+/* story */
+.storyRow{
+    /* background-color: red; */
+    background-color: #f8f8f870;
+    border-radius: 15px;
+}
+.story-text{
+    width: fit-content;
+    border-bottom: 1px solid #cdcbcb57;
+}
+/* details */
+.det{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.det-span{
+    border-bottom: 1px solid #cdcbcb57;
+    font-size: 24px;
+    font-weight: bold;
+}
+.par>img{
+    border-radius: 15px;
+}
+.det-row{
+    background-color: #f8f8f870;
+    border-radius: 20px;
+}
+/* .paginate{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: #227bce;
+    margin: 10px auto;
+    font-size: 14px;
+}
+.paginate li {
+    border: 1px solid #dadada;
+    padding: 5px 10px;
+}
+.paginate li a{
+    text-decoration: none;
+    color: #227bce;
+}
+.paginate li.previous a {
+    color: #888;
+}
+.paginate .selected {
+    color: #fff;
+    background-color: #227bce;
+} */
